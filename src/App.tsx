@@ -16,8 +16,8 @@ export default function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Home />}></Route>
-        <Route path="/news" element={<Layout />}>
+        <Route path="/kacchan_new/" element={<Home />}></Route>
+        <Route path="/kacchan_new/news" element={<Layout />}>
           <Route index element={<News />}></Route>
         <Route path="202304250001" element={<A />}></Route>
         <Route path="202304300001" element={<B />}></Route>
@@ -25,10 +25,9 @@ export default function App() {
         <Route path="202305300001" element={<D />}></Route>
         <Route path="202306040001" element={<E />}></Route>
         </Route>
-        <Route path="/contact" element={<Contact />}></Route>
-        <Route path="/helpful" element={<Helpful />}></Route>
-        <Route path="/link" element={<Link />}></Route>
-        {/* ニュース */}
+        <Route path="/kacchan_new/contact" element={<Contact />}></Route>
+        <Route path="/kacchan_new/helpful" element={<Helpful />}></Route>
+        <Route path="/kacchan_new/link" element={<Link />}></Route>
       </Routes>
     </>
   )
