@@ -25,7 +25,7 @@ export default function Home() {
         <div className="page_update">
           <span className="date">2023年6月04日</span>
           <span>
-            <a href="/news/202306040001"
+            <a href="/kacchan_home/news/202306040001"
               >「ツイ廃活動半年に寄せて」を掲載しました。</a
             >
           </span>
@@ -35,7 +35,7 @@ export default function Home() {
         <div className="page_update">
           <span className="date">2023年5月30日</span>
           <span>
-            <a href="/news/202305300001"
+            <a href="/kacchan_home/news/202305300001"
               >ツイート一時停止のお知らせを通知しました。</a
             >
           </span>
@@ -45,7 +45,7 @@ export default function Home() {
         <div className="page_update">
           <span className="date">2023年5月28日</span>
           <span>
-            <a href="/news/202305280001"
+            <a href="/kacchan_home/news/202305280001"
               >フォロワーさまが500人を突破しました。</a
             >
           </span>
