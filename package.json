@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://random776.github.io/kacchan_home",
+  "build": "react-scripts build && cp build/index.html build/404.html",
 
   "scripts": {
     "dev": "vite",
