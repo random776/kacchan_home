@@ -1,6 +1,7 @@
 import Header from "../Basic/index";
 import SubMenu from "../Basic/menuBar";
 import Focus from "/focus.jpg";
+import UTokyoProblem from "/utokyo_problem.jpeg"
 import Typing2 from "/typing2.jpg";
 import Natsuyasumi2 from "/natsuyasumi2.jpg";
 import Kyomuka from "/kyo_muka.jpeg";
@@ -10,6 +11,7 @@ import Sosuu from "/sosuu.jpeg";
 import Soinsubunkai from "/soinsubunkai.jpeg";
 import Tenkai from "/tenkai.jpeg";
 import Soinsuu2 from "/soinsuu2.jpeg";
+import UTAS from "../Basic/UTokyo";
 
 export default function Home() {
     return (
@@ -23,7 +25,7 @@ export default function Home() {
         <div className="page_update">
           <span className="date">2023年6月04日</span>
           <span>
-            <a href="./news/202306040001.html"
+            <a href="/news/202306040001"
               >「ツイ廃活動半年に寄せて」を掲載しました。</a
             >
           </span>
@@ -33,7 +35,7 @@ export default function Home() {
         <div className="page_update">
           <span className="date">2023年5月30日</span>
           <span>
-            <a href="./news/202305300001.html"
+            <a href="/news/202305300001"
               >ツイート一時停止のお知らせを通知しました。</a
             >
           </span>
@@ -43,7 +45,7 @@ export default function Home() {
         <div className="page_update">
           <span className="date">2023年5月28日</span>
           <span>
-            <a href="./news/202305280001.html"
+            <a href="/news/202305280001"
               >フォロワーさまが500人を突破しました。</a
             >
           </span>
@@ -73,6 +75,43 @@ export default function Home() {
                 className="card__overviewtext" >
                 ここでは、最近制作したWebツールを紹介しております。ぜひ見ていってください！
               </div>
+            </div>
+          </div>
+        </div>
+        {/* <!--  --> */}
+        <div className="card_format">
+          <div className="card card-skin">
+            <div className="card__imgframe">
+              <img
+                src={UTokyoProblem}
+                alt=""
+                style={{width: "100%"}}
+              />
+            </div>
+            <div className="card__textbox">
+              <div className="card__utokyo" >
+                あの、東大さん、
+              </div>
+              <div
+                className="card__utokyo"
+              >
+                東大150周年まであと
+              </div>
+              <div
+                className="card__utokyo"
+              >
+                <span
+                >
+                </span><UTAS/><span>日</span>
+              </div>
+              <div className="card__utokyo">
+                なんですよね。気が早すぎですね！
+              </div>
+              <span className="card-url"
+                ><a href="https://www.u-tokyo.ac.jp/ja/index.html" className="btn4"
+                  >問題のページを開く</a
+                ></span
+              >
             </div>
           </div>
         </div>

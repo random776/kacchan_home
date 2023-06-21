@@ -28,8 +28,17 @@
   }
   .card__overviewtext {
     margin: 15px 0px;
-    font-size: 12px;
+    font-size: 13px;
     line-height: 150%;
+  }
+  .card__utokyo {
+    font-size: 14px; 
+    margin: 0px;
+  }
+  .card__utokyo__day {
+    font-size: 18px;
+    padding: 2px 2px 2px 0px;
+    color: blueviolet;
   }
   
   .card-skin {
