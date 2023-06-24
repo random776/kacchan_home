@@ -16,15 +16,15 @@ export default function Header2() {
           <div id="nav-content">
             <header>
               <ul>
-              <li><a href="../kacchan_home/" className="btn4">HOME</a></li>
-                <li><a href="../kacchan_home/news" className="btn4">ニュース</a></li>
-                <li><a href="../kacchan_home/contact" className="btn4">連絡先（SNS）</a></li>
+              <li><a href="../" className="btn4">HOME</a></li>
+                <li><a href="../news" className="btn4">ニュース</a></li>
+                <li><a href="../contact" className="btn4">連絡先（SNS）</a></li>
                 <li>
-                  <a href="../kacchan_home/helpful" className="btn4"
+                  <a href="../helpful" className="btn4"
                     >東大理系生お役立ちツール</a
                   >
                 </li>
-                <li><a href="./kacchan_home/link" className="btn4">外部リンク</a></li>
+                <li><a href="../link" className="btn4">外部リンク</a></li>
               </ul>
             </header>
           </div>
