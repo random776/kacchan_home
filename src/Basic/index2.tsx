@@ -30,7 +30,7 @@ export default function Header2() {
           </div>
         </div>
         <div className="logo-area">
-          <a href="../kacchan_home"
+          <a href="../"
             ><img className="logo" src={Logo} alt=""
           /></a>
         </div>
