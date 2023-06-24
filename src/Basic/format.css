@@ -335,14 +335,12 @@ body {
   
   .header2 {
     margin: 15px 25px 15px 25px;
-    display: inline-block;
-    word-break: keep-all;
+    text-align: center;
   }
   .header2 a {
     color: white;
     text-decoration: none;
     margin: 15px;
-    font-size: 0.8rem;
   }
   .under {
     text-align: center; 
@@ -355,6 +353,10 @@ body {
     }
     .logo {
       width: 220px;
+    }
+    .header3 a {
+      font-size: 0.8rem;
+      word-break: keep-all;
     }
   }
   
@@ -371,6 +373,9 @@ body {
     .logo {
       width: 350px;
       padding: 15px;
+    }
+    .header3 {
+      display: inline;
     }
   }
   

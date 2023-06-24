@@ -10,11 +10,15 @@ export default function SubMenu() {
       </div>
       <div className="header2">
         <header>
+          <div className="header3">
           <a href="./">HOME</a>
           <a href="./news">ニュース</a>
           <a href="./contact">連絡先（SNS）</a>
+          </div>
+          <div className="header3">
           <a href="./helpful">東大理系生お役立ちツール</a>
           <a href="./link">外部リンク</a>
+          </div>
         </header>
       </div>
       <div className="under">
