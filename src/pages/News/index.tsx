@@ -16,7 +16,7 @@ export default function News() {
               <span className="news_date">2023年6月04日</span>
               <div className="topic2">Twitter・広報</div>
                 <span className="span">
-                  <a href="/kacchan_home/news/202306040001">「ツイ廃活動半年に寄せて」を掲載しました。</a
+                  <a href="./202306040001">「ツイ廃活動半年に寄せて」を掲載しました。</a
                   >
                   </span>
                 </div>
@@ -26,7 +26,7 @@ export default function News() {
             <span className="news_date">2023年5月30日</span>
             <div className="topic2">Twitter・広報</div>
               <span className="span">
-                <a href="/kacchan_home/news/202305300001">ツイート一時停止のお知らせを通知しました。</a
+                <a href="./202305300001">ツイート一時停止のお知らせを通知しました。</a
                 >
                 </span>
               </div>
@@ -36,7 +36,7 @@ export default function News() {
               <span className="news_date">2023年5月29日</span>
               <div className="topic2">Twitter・広報</div>
               <span className="span">
-                <a href="/kacchan_home/news/202305280001">フォロワーさまが500人を突破しました。</a
+                <a href="./202305280001">フォロワーさまが500人を突破しました。</a
                 >
                 </span>
               </div>
@@ -46,7 +46,7 @@ export default function News() {
             <span className="news_date">2023年5月11日</span>
             <div className="topic2">公式サイト</div>
             <span className="span">
-              <a href="/kacchan_home/news">ニュース・お知らせの掲載ページをこちらに移転しました。</a
+              <a href="./news">ニュース・お知らせの掲載ページをこちらに移転しました。</a
               >
               </span>
             </div>
@@ -56,7 +56,7 @@ export default function News() {
             <span className="news_date">2023年4月30日</span>
             <div className="topic2">Web開発</div>
             <span className="span">
-              <a href="/kacchan_home/news/202304300001">展開・因数分解の初級学習ツールを作成しました。</a
+              <a href="./202304300001">展開・因数分解の初級学習ツールを作成しました。</a
               >
               </span>
             </div>
@@ -66,7 +66,7 @@ export default function News() {
             <span className="news_date">2023年4月25日</span>
             <div className="topic2">Twitter・広報</div>
               <span className="span">
-                <a href="/kacchan_home/news/202304250001">ツイート一時停止のお知らせを通知しました。</a
+                <a href="./202304250001">ツイート一時停止のお知らせを通知しました。</a
                 >
                 </span>
               </div>

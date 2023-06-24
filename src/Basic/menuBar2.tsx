@@ -10,11 +10,11 @@ export default function SubMenu2() {
       </div>
       <div className="header2">
         <header>
-        <a href="../kacchan_home">HOME</a>
-          <a href="../kacchan_home/news">ニュース</a>
-          <a href="../kacchan_home/contact">連絡先（SNS）</a>
-          <a href="../kacchan_home/helpful">東大理系生お役立ちツール</a>
-          <a href="../kacchan_home/link">外部リンク</a>
+        <a href="../">HOME</a>
+          <a href="../news">ニュース</a>
+          <a href="../contact">連絡先（SNS）</a>
+          <a href="../helpful">東大理系生お役立ちツール</a>
+          <a href="../link">外部リンク</a>
         </header>
       </div>
       <div className="under">
