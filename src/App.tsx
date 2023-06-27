@@ -11,6 +11,7 @@ import B from "./pages/202304300001"
 import C from "./pages/202305280001"
 import D from "./pages/202305300001"
 import E from "./pages/202306040001"
+import F from "./pages/202306280001"
 
 export default function App() {
   return (
@@ -24,6 +25,7 @@ export default function App() {
         <Route path="202305280001" element={<C />}></Route>
         <Route path="202305300001" element={<D />}></Route>
         <Route path="202306040001" element={<E />}></Route>
+        <Route path="202306280001" element={<F />}></Route>
         </Route>
         <Route path="/kacchan_home/contact" element={<Contact />}></Route>
         <Route path="/kacchan_home/helpful" element={<Helpful />}></Route>

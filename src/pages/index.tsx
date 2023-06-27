@@ -23,6 +23,16 @@ export default function Home() {
         {/* <!--  --> */}
         <hr className="hr"/>
         <div className="page_update">
+          <span className="date">2023年6月28日</span>
+          <span>
+            <a href="./news/202306280001"
+              >本サイトの仕様変更のお知らせ</a
+            >
+          </span>
+        </div>
+        {/* <!--  --> */}
+        <hr className="hr"/>
+        <div className="page_update">
           <span className="date">2023年6月04日</span>
           <span>
             <a href="./news/202306040001"
@@ -41,16 +51,6 @@ export default function Home() {
           </span>
         </div>
         {/* <!--  --> */}
-        <hr className="hr" />
-        <div className="page_update">
-          <span className="date">2023年5月28日</span>
-          <span>
-            <a href="./news/202305280001"
-              >フォロワーさまが500人を突破しました。</a
-            >
-          </span>
-        </div>
-    {/* <!--  --> */}
         <hr className="hr" />
       </div>
     </div>

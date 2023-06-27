@@ -13,6 +13,16 @@ export default function News() {
           <div id="news_oshirase">
             {/* <!--  --> */}
             <div className="news_update">
+              <span className="news_date">2023年6月28日</span>
+              <div className="topic2">Web開発</div>
+                <span className="span">
+                  <a href="./news/202306280001">本サイトの仕様変更のお知らせ</a
+                  >
+                  </span>
+                </div>
+            {/* <!--  --> */}
+            <hr color="rgb(41, 41, 41)" className="hr"/>
+            <div className="news_update">
               <span className="news_date">2023年6月04日</span>
               <div className="topic2">Twitter・広報</div>
                 <span className="span">
