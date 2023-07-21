@@ -34,6 +34,11 @@
     max-width: 767px;
   }
 
+  .img2 {
+    width: 100%; 
+    max-width: 467px;
+  }
+
   @media screen and (max-width:767px) {
     #news_oshirase {
       font-size: 85%;
