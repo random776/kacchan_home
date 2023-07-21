@@ -21,6 +21,16 @@ export default function Home() {
       <div id="oshirase">
         <h2 className="color4">NOTICES</h2>
         {/* <!--  --> */}
+        <hr className="hr" />
+        <div className="page_update">
+          <span className="date">2023年7月21日</span>
+          <span>
+            <a href="./news/202307210001"
+              >ツイート一時停止のお知らせを通知しました。</a
+            >
+          </span>
+        </div>
+        {/* <!--  --> */}
         <hr className="hr"/>
         <div className="page_update">
           <span className="date">2023年6月28日</span>
@@ -37,16 +47,6 @@ export default function Home() {
           <span>
             <a href="./news/202306040001"
               >「ツイ廃活動半年に寄せて」を掲載しました。</a
-            >
-          </span>
-        </div>
-        {/* <!--  --> */}
-        <hr className="hr" />
-        <div className="page_update">
-          <span className="date">2023年5月30日</span>
-          <span>
-            <a href="./news/202305300001"
-              >ツイート一時停止のお知らせを通知しました。</a
             >
           </span>
         </div>
