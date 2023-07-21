@@ -12,7 +12,6 @@ export default function News() {
         <div id="news_oshirase-viewer">
           <div id="news_oshirase">
             {/* <!--  --> */}
-            <hr color="rgb(41, 41, 41)" className="hr"/>
             <div className="news_update">
             <span className="news_date">2023年7月21日</span>
             <div className="topic2">Twitter・広報</div>
@@ -22,6 +21,7 @@ export default function News() {
                 </span>
               </div>
             {/* <!--  --> */}
+            <hr color="rgb(41, 41, 41)" className="hr"/>
             <div className="news_update">
               <span className="news_date">2023年6月28日</span>
               <div className="topic2">Web開発</div>
