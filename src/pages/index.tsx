@@ -11,6 +11,7 @@ import Sosuu from "/sosuu.jpeg";
 import Soinsubunkai from "/soinsubunkai.jpeg";
 import Tenkai from "/tenkai.jpeg";
 import Soinsuu2 from "/soinsuu2.jpeg";
+import NshinKeisan from "/nshinkeisan.jpg";
 import UTAS from "../Basic/UTokyo";
 
 export default function Home() {
@@ -327,6 +328,30 @@ export default function Home() {
               >
               <span className="card-url" style={{left: "120px"}}
                 ><a href="https://github.com/random776/soinsuuniki" className="btn4"
+                  >ソースコードを見る</a
+                ></span
+              >
+            </div>
+          </div>
+        </div>
+        {/* <!--  --> */}
+        <div className="card_format">
+          <div className="card card-skin">
+            <div className="card__imgframe">
+              <img src={NshinKeisan} alt="" style={{width: "100%"}} />
+            </div>
+            <div className="card__textbox">
+              <div className="card__titletext">フラッシュn進計算ニキ</div>
+              <div className="card__overviewtext">
+                n進法による四則演算の練習ができるファンツールです。「展開・因数分解」ツールと同じように、乱数生成により問題を作ります。
+              </div>
+              <span className="card-url"
+                ><a href="https://nshincalc-niki.onrender.com" className="btn4"
+                  >ページを開く</a
+                ></span
+              >
+              <span className="card-url" style={{left: "120px"}}
+                ><a href="https://github.com/random776/nshincalc_niki" className="btn4"
                   >ソースコードを見る</a
                 ></span
               >
