@@ -25,6 +25,7 @@ export default function Header2() {
                   >
                 </li>
                 <li><a href="../link" className="btn4">外部リンク</a></li>
+                <li><a href="../test" className="btn4">共通テスト対策</a></li>
               </ul>
             </header>
           </div>
@@ -44,6 +45,7 @@ export default function Header2() {
             <a href="../helpful" className="btn4">東大理系生お役立ちツール</a>
           </li>
           <li><a href="../link" className="btn4">外部リンク</a></li>
+          <li><a href="../test" className="btn4">共通テスト対策</a></li>
         </ul>
       </div>
       <div className="slide">

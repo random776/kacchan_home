@@ -5,6 +5,7 @@ import News from "./pages/News"
 import Contact from "./pages/Contact"
 import Helpful from "./pages/Helpful"
 import Link from "./pages/Link"
+import Test from "./pages/Test"
 // ニュース
 import A from "./pages/202304250001"
 import B from "./pages/202304300001"
@@ -32,6 +33,7 @@ export default function App() {
         <Route path="/kacchan_home/contact" element={<Contact />}></Route>
         <Route path="/kacchan_home/helpful" element={<Helpful />}></Route>
         <Route path="/kacchan_home/link" element={<Link />}></Route>
+        <Route path="/kacchan_home/test" element={<Test />}></Route>
         {/* ニュース */}
       </Routes>
     </>
