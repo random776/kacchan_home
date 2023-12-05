@@ -1,7 +1,7 @@
-import Nyugakushiki from "/nyugakushiki.jpeg"
-import Chikurin from "/chikurin.jpeg"
-import Flower from "/flower.jpg"
-import Funabashi from "/funabashi.jpeg"
+import Oarai from "/oarai.jpg"
+import Jobansen from "/jobansen.jpg"
+import MitoTrain from "/mito_train.jpg"
+import Otonebashi from "/otonebashi.jpg"
 import Logo from "/logoimage.jpeg"
 
 export default function Header2() {
@@ -49,10 +49,10 @@ export default function Header2() {
         </ul>
       </div>
       <div className="slide">
-        <img className="item1" src={Nyugakushiki} alt="A" />
-        <img className="item2" src={Chikurin} alt="B" />
-        <img className="item3" src={Flower} alt="C" />
-        <img className="item4" src={Funabashi} alt="D" />
+      <img className="item1" src={Oarai} alt="A" />
+        <img className="item2" src={Jobansen} alt="B" />
+        <img className="item3" src={MitoTrain} alt="C" />
+        <img className="item4" src={Otonebashi} alt="D" />
       </div>
     </header>
         </>
