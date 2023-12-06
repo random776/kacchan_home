@@ -21,6 +21,7 @@ export default function News() {
                 </span>
               </div>
             {/* <!--  --> */}
+            <hr color="rgb(41, 41, 41)" className="hr"/>
             <div className="news_update">
             <span className="news_date">2023年7月21日</span>
             <div className="topic2">Twitter・広報</div>
