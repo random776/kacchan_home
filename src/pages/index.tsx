@@ -22,6 +22,16 @@ export default function Home() {
       <div id="oshirase">
         <h2 className="color4">NOTICES</h2>
         {/* <!--  --> */}
+        <hr className="hr"/>
+        <div className="page_update">
+          <span className="date">2023年12月06日</span>
+          <span>
+            <a href="./news/202312060001"
+              >本サイトのスライド写真を変更しました。</a
+            >
+          </span>
+        </div>
+        {/* <!--  --> */}
         <hr className="hr" />
         <div className="page_update">
           <span className="date">2023年7月21日</span>
@@ -38,16 +48,6 @@ export default function Home() {
           <span>
             <a href="./news/202306280001"
               >本サイトの仕様変更のお知らせ</a
-            >
-          </span>
-        </div>
-        {/* <!--  --> */}
-        <hr className="hr"/>
-        <div className="page_update">
-          <span className="date">2023年6月04日</span>
-          <span>
-            <a href="./news/202306040001"
-              >「ツイ廃活動半年に寄せて」を掲載しました。</a
             >
           </span>
         </div>
