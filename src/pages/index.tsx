@@ -157,7 +157,7 @@ export default function Home() {
             <div className="card__textbox">
               <div className="card__titletext">夏休みが終わるまで</div>
               <div className="card__overviewtext">
-                フォロワーさまのご提案による「謎のカウントダウン」。永遠に15日間の夏休みを繰り返す装置です。なんか哀愁をかんじますね（？）。
+                フォロワーさまのご提案による「謎のカウントダウン」。永遠に15日間の夏休みを繰り返す装置です。なんか哀愁を感じますね（？）。
               </div>
               <span className="card-url"
                 ><a href="https://random776.github.io/natsuyasumi/" className="btn4"
