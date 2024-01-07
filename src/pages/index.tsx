@@ -227,12 +227,12 @@ export default function Home() {
                 ナウルさんの「一年のn％終了」ツイートを再現したはいいけれど、ひとさまのツイートを真似て何が楽しいのだろう？？
               </div>
               <span className="card-url"
-                ><a href="https://nauru-percentage.onrender.com" className="btn4"
+                ><a href="https://nauru-calendar.onrender.com" className="btn4"
                   >ページを開く</a
                 ></span
               >
               <span className="card-url" style={{left: "120px"}}
-                ><a href="https://github.com/random776/nauru" className="btn4"
+                ><a href="https://github.com/random776/nauru_calendar" className="btn4"
                   >ソースコードを見る</a
                 ></span
               >
